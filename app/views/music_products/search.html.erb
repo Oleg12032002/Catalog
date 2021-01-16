@@ -1,0 +1,4 @@
+<h1>Результат пошуку за "<%= @search%>"</h1>
+<h5>Кількість результатів <%= @music_products.count%></h5>
+<div> <%= "Нічого не знайдено" if @music_products.count==0%></div>
+<div class="row"><%= render @music_products%></div>
